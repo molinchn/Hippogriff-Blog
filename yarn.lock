@@ -1758,7 +1758,7 @@ array-flatten@1.1.1:
   resolved "https://registry.yarnpkg.com/array-flatten/-/array-flatten-1.1.1.tgz#9a5f699051b1e7073328f2a008968b64ea2955d2"
   integrity sha1-ml9pkFGx5wczKPKgCJaLZOopVdI=
 
-array-flatten@^2.1.0:
+array-flatten@^2.1.0, array-flatten@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/array-flatten/-/array-flatten-2.1.2.tgz#24ef80a28c1a893617e2149b0c6d0d788293b099"
   integrity sha512-hNfzcOV8W4NdualtqBFPyVO+54DSJuZGY9qT4pRroB6S9e3iiido2ISIC5h9R2sPJ8H3FHCIiEnsv1lPXO3KtQ==
@@ -3295,7 +3295,7 @@ debug@^4.1.0, debug@^4.1.1:
   dependencies:
     ms "2.1.2"
 
-debuglog@*, debuglog@^1.0.1:
+debuglog@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/debuglog/-/debuglog-1.0.1.tgz#aa24ffb9ac3df9a2351837cfb2d279360cd78492"
   integrity sha1-qiT/uaw9+aI1GDfPstJ5NgzXhJI=
@@ -3316,6 +3316,13 @@ decompress-response@^3.3.0:
   integrity sha1-gKTdMjdIOEv6JICDYirt7Jgq3/M=
   dependencies:
     mimic-response "^1.0.0"
+
+deconstruct-merge@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/deconstruct-merge/-/deconstruct-merge-1.1.0.tgz#ed9986ce729d9e67bdbc5780a771a021947ab3d3"
+  integrity sha512-o0RFi4YhLf+FJKQ2ly7iDePl9WtdY+RJIPd0wEDlMlK0wTxfywS9DxYQeei8N4qqHKoy8Idp4UXPtXFIVn0PrA==
+  dependencies:
+    array-flatten "^2.1.2"
 
 deep-equal@^1.0.1:
   version "1.1.1"
@@ -3816,6 +3823,11 @@ eslint-scope@^4.0.3:
   dependencies:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
+
+esm@^3.0.34:
+  version "3.2.25"
+  resolved "https://registry.yarnpkg.com/esm/-/esm-3.2.25.tgz#342c18c29d56157688ba5ce31f8431fbb795cc10"
+  integrity sha512-U1suiZ2oDVWv4zPO56S0NcR5QriEahGtdN2OR6FiOG4WJvcjBVFB0qI4+eKoWFH483PKGuLuu6V8Z4T5g63UVA==
 
 esprima@^4.0.0:
   version "4.0.1"
@@ -5034,7 +5046,7 @@ import-local@^2.0.0:
     pkg-dir "^3.0.0"
     resolve-cwd "^2.0.0"
 
-imurmurhash@*, imurmurhash@^0.1.4:
+imurmurhash@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
   integrity sha1-khi5srkoojixPcT7a21XbyMUU+o=
@@ -6015,11 +6027,6 @@ lockfile@^1.0.4:
   dependencies:
     signal-exit "^3.0.2"
 
-lodash._baseindexof@*:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/lodash._baseindexof/-/lodash._baseindexof-3.1.0.tgz#fe52b53a1c6761e42618d654e4a25789ed61822c"
-  integrity sha1-/lK1OhxnYeQmGNZU5KJXie1hgiw=
-
 lodash._baseuniq@~4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash._baseuniq/-/lodash._baseuniq-4.6.0.tgz#0ebb44e456814af7905c6212fa2c9b2d51b841e8"
@@ -6028,32 +6035,10 @@ lodash._baseuniq@~4.6.0:
     lodash._createset "~4.0.0"
     lodash._root "~3.0.0"
 
-lodash._bindcallback@*:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/lodash._bindcallback/-/lodash._bindcallback-3.0.1.tgz#e531c27644cf8b57a99e17ed95b35c748789392e"
-  integrity sha1-5THCdkTPi1epnhftlbNcdIeJOS4=
-
-lodash._cacheindexof@*:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/lodash._cacheindexof/-/lodash._cacheindexof-3.0.2.tgz#3dc69ac82498d2ee5e3ce56091bafd2adc7bde92"
-  integrity sha1-PcaayCSY0u5ePOVgkbr9Ktx73pI=
-
-lodash._createcache@*:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/lodash._createcache/-/lodash._createcache-3.1.2.tgz#56d6a064017625e79ebca6b8018e17440bdcf093"
-  integrity sha1-VtagZAF2JeeevKa4AY4XRAvc8JM=
-  dependencies:
-    lodash._getnative "^3.0.0"
-
 lodash._createset@~4.0.0:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/lodash._createset/-/lodash._createset-4.0.3.tgz#0f4659fbb09d75194fa9e2b88a6644d363c9fe26"
   integrity sha1-D0ZZ+7CddRlPqeK4imZE02PJ/iY=
-
-lodash._getnative@*, lodash._getnative@^3.0.0:
-  version "3.9.1"
-  resolved "https://registry.yarnpkg.com/lodash._getnative/-/lodash._getnative-3.9.1.tgz#570bc7dede46d61cdcde687d65d3eecbaa3aaff5"
-  integrity sha1-VwvH3t5G1hzc3mh9ZdPuy6o6r/U=
 
 lodash._reinterpolate@^3.0.0:
   version "3.0.0"
@@ -6084,11 +6069,6 @@ lodash.memoize@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
-
-lodash.restparam@*:
-  version "3.6.1"
-  resolved "https://registry.yarnpkg.com/lodash.restparam/-/lodash.restparam-3.6.1.tgz#936a4e309ef330a7645ed4145986c85ae5b20805"
-  integrity sha1-k2pOMJ7zMKdkXtQUWYbIWuWyCAU=
 
 lodash.template@^4.5.0:
   version "4.5.0"
@@ -6267,6 +6247,13 @@ markdown-it@^8.4.1:
     linkify-it "^2.0.0"
     mdurl "^1.0.1"
     uc.micro "^1.0.5"
+
+mathjax3@3.0.0-beta.3:
+  version "3.0.0-beta.3"
+  resolved "https://registry.yarnpkg.com/mathjax3/-/mathjax3-3.0.0-beta.3.tgz#c3072a59304b4b612aa9516eb672b07000c9a3d5"
+  integrity sha512-MgXK56KOLk5b8/Y01RXB/C0+QgC2Kc+SJmKBilP+Jwxout/4SdV8AjsPp+WMzlotnAacQWFpn24CPdLkdej9AA==
+  dependencies:
+    esm "^3.0.34"
 
 md5.js@^1.3.4:
   version "1.3.5"
@@ -10089,6 +10076,13 @@ vuepress-html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
+vuepress-mergeable@^1.0.2:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/vuepress-mergeable/-/vuepress-mergeable-1.1.4.tgz#738bbe46101a07e256b83dbf82140d17be020c05"
+  integrity sha512-AG1RqLJdHrFzv1sq2/KT/V2u7FCMYc+SfzcVIZubx/IEUefGaqu+7KujL16zQn0Y08hTohs8vEnXieNmti13Kg==
+  dependencies:
+    deconstruct-merge "^1.1.0"
+
 vuepress-plugin-baidu-autopush@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-baidu-autopush/-/vuepress-plugin-baidu-autopush-1.0.1.tgz#e5042170f05a585c4a38f876e01ff4706cd82fbe"
@@ -10123,6 +10117,15 @@ vuepress-plugin-demo-block@^0.7.2:
   version "0.7.2"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-demo-block/-/vuepress-plugin-demo-block-0.7.2.tgz#02fc4f0ef764052981accf41f1403fdb9f794c0d"
   integrity sha512-0k7z7bTjXoXgdAMVFIVn3RFSQpKOM0yvD0hf/CA0gMCLBih77mCALtEpH9b+bEvijHmLLIq+BUtS2TQHXpkbNA==
+
+vuepress-plugin-mathjax@^1.2.8:
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-mathjax/-/vuepress-plugin-mathjax-1.2.8.tgz#decec38e9dbb82de9cf79f042463fa4a56e25340"
+  integrity sha512-vtRyDsBviQJfMgHhjzsVY+Rnr4HyEnUCgCKof5FV2ZG+mVe+YECfhVAe1Zo24XkkYjS/FBMFLn/sz4s0p5iuuQ==
+  dependencies:
+    lru-cache "^5.1.1"
+    mathjax3 "3.0.0-beta.3"
+    vuepress-mergeable "^1.0.2"
 
 vuepress-plugin-one-click-copy@^1.0.2:
   version "1.0.3"

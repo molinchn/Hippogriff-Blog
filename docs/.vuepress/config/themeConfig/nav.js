@@ -90,4 +90,30 @@ module.exports = [
     //   ],
     // },
     { text: 'C++', link: '/pages/2bfff1/' },
+    {
+        text: '算法',
+        link: '/pages/b15211/',
+        items: [
+            { text: '算法', link: '/pages/b15211/' },
+            { text: '数据结构', link: '/pages/912cb0/' },
+            { text: 'Leetcode', link: '/pages/2a00d8/' },
+        ],
+    },
+    {
+        text: 'CS基础',
+        link: '/pages/83e9f8/',
+        items: [
+            { text: '操作系统', link: '/pages/83e9f8/' },
+            { text: '计算机网络', link: '/pages/83e9f8/' },
+            { text: 'MySQL', link: '/pages/9bda09/' },
+        ],
+    },
+    {
+        text: '技术',
+        link: '/pages/4a5ed3/',
+        items: [
+            { text: '深度学习', link: '/pages/4a5ed3/' },
+        ],
+    },
+
 ]
