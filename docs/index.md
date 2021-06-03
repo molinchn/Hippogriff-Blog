@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: Hippogriff's Blog
+heroText: Hippogriff Blog
 tagline: 此世无存的幻马
 # actionText: 立刻进入 →
 # actionLink: /web/
