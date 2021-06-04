@@ -115,5 +115,6 @@ module.exports = [
             { text: '深度学习', link: '/pages/4a5ed3/' },
         ],
     },
-
+    { text: '收藏', link: '/pages/1ebfaf/' },
+    { text: '文摘', link: '/pages/9a9d09/' },
 ]

@@ -60,11 +60,6 @@ export default {
       showModeBox: false,
       modeList: [
         {
-          name: '跟随系统',
-          icon: 'icon-zidong',
-          KEY: 'auto'
-        },
-        {
           name: '浅色模式',
           icon: 'icon-rijianmoshi',
           KEY: 'light'
@@ -78,6 +73,11 @@ export default {
           name: '阅读模式',
           icon: 'icon-yuedu',
           KEY: 'read'
+        },
+        {
+          name: '跟随系统',
+          icon: 'icon-zidong',
+          KEY: 'auto'
         }
       ],
       _scrollTimer: null,
