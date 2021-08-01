@@ -113,6 +113,7 @@ module.exports = [
         link: '/pages/4a5ed3/',
         items: [
             { text: '深度学习', link: '/pages/4a5ed3/' },
+            { text: '网络', link: '/pages/a8ecce/' },
         ],
     },
     { text: '收藏', link: '/pages/1ebfaf/' },
