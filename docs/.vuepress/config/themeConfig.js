@@ -76,7 +76,7 @@ module.exports = {
     footer: {
         // 页脚信息
         createYear: 2019, // 博客创建年份
-        copyrightInfo: 'Molin Li | <a href="https://github.com/molinchn/Hippogriff-Blog/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+        copyrightInfo: 'Molin Li | <a href="https://github.com/molinchn/Hippogriff-Blog/blob/master/LICENSE" target="_blank">MIT License</a> <br />「Powered by <a href="https://webify.cloudbase.net/"  target="_blank">CloudBase Webify</a>」', // 博客版权信息，支持a标签
     },
     htmlModules // 插入hmtl(广告)模块
 }
