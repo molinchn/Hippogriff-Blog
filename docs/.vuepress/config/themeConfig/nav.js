@@ -117,6 +117,13 @@ module.exports = [
         ],
     },
     { text: '收藏', link: '/pages/1ebfaf/' },
-    { text: '文摘', link: '/pages/9a9d09/' },
+    {
+        text: '文摘',
+        link: '/pages/9a9d09/',
+        items: [
+            { text: '醍醐灌顶', link: '/pages/9a9d09/' },
+            { text: '句读', link: '/pages/cfb1a2/' },
+        ],
+    },
     { text: '个人书单', link: 'https://molinchn.notion.site/8857b080ebfd4c48877ca29833b6b7dc' }
 ]

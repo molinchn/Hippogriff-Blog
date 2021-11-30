@@ -83,9 +83,9 @@ module.exports = [
         {
             choosen: 'gitalk',
             options: {
-                clientID: 'a6e1355287947096b88b',
-                clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
-                repo: 'blog-gitalk-comment', // GitHub 仓库
+                clientID: '2102c36730ff56cce559',
+                clientSecret: 'c991c976459163d220b523ee332874bfb4305bee',
+                repo: 'blog-comments', // GitHub 仓库
                 owner: 'molinchn', // GitHub仓库所有者
                 admin: ['molinchn'], // 对仓库有写权限的人
                 // distractionFreeMode: true,
