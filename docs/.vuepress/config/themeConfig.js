@@ -49,7 +49,7 @@ module.exports = {
     },
     blogger: {
         // 博主信息，显示在首页侧边栏
-        avatar: 'https://gitee.com/molinchn/BlogImage/raw/master/img/%E9%98%BF%E7%A6%8F%E5%A4%B4%E5%83%8F.jpg',
+        avatar: 'https://murray-pic-1254317211.cos.ap-guangzhou.myqcloud.com/gitee_bak/%E9%98%BF%E7%A6%8F%E5%A4%B4%E5%83%8F.jpg',
         name: 'Absm',
         slogan: '什么也不会',
     },
